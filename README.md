@@ -1,11 +1,8 @@
-# React + TypeScript + Vite
+# Reproduce "… MetaProperty could not be resolved"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repo does reproduce an issue filed for jsx-ast-utils: https://github.com/jsx-eslint/jsx-ast-utils/issues/119
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To reproduce clone this repo and run `npx eslint src`
 
 ## Expanding the ESLint configuration
 
